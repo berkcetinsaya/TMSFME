@@ -2,7 +2,7 @@
 	define("DB_HOST", "127.0.0.1");
 	define("DB_USER", "root");
 	define("DB_PASS", "");
-	define("DB_NAME", "furkan");
+	define("DB_NAME", "tmsfme");
 	
 	$db = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
     if($db->connect_errno > 0){

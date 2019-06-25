@@ -243,14 +243,14 @@
 			<meta charset="UTF-8">
 			<meta http-equiv="X-UA-Compatible" content="IE=edge">
 			<meta name="viewport" content="width=device-width, initial-scale=1">
-			<link href="css/bootstrap.min.css" rel="stylesheet">
+			<link href="assets/css/bootstrap.min.css" rel="stylesheet">
 			<!-- Custom CSS -->
-			<link href="css/modern-business.css" rel="stylesheet">
+			<link href="assets/css/modern-business.css" rel="stylesheet">
 			<!-- Custom Fonts -->
-			<link  rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+			<link  rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
 			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
 			<title>
-				Furkan
+				TMSFME
 			</title>		
 		</head>
 	<!-- BROWSER SETTINGS AND INCLUDING STYLE AND ANIMATION FILES-->
@@ -268,7 +268,7 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand" href="index.php"><i class="fa fa-anchor"></i> Furkan <i class="fa fa-ship"></i></a>
+						<a class="navbar-brand" href="index.php"><i class="fa fa-anchor"></i> TMSFME <i class="fa fa-ship"></i></a>
 					</div>
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -438,7 +438,7 @@
 				<footer>
 					<div class="row text-center">
 						<div class="col-lg-12">
-							<p>Copyright <i class="fa fa-copyright "></i> <b>Furkan Sayin</b> 2017</p>
+							<p>Copyright <i class="fa fa-copyright "></i> <b>Berk Cetinsaya</b> <?php echo date('Y');?></p>
 						</div>
 					</div>
 				</footer>

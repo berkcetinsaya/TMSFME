@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.7.4
+-- version 4.7.7
 -- https://www.phpmyadmin.net/
 --
--- Anamakine: 127.0.0.1
--- Üretim Zamanı: 02 Ara 2017, 22:13:45
--- Sunucu sürümü: 10.1.28-MariaDB
--- PHP Sürümü: 7.1.11
+-- Host: localhost
+-- Generation Time: Jun 25, 2019 at 10:11 PM
+-- Server version: 5.7.21
+-- PHP Version: 7.1.23
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -19,13 +19,13 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Veritabanı: `furkan`
+-- Database: `tmsfme`
 --
 
 -- --------------------------------------------------------
 
 --
--- Tablo için tablo yapısı `task`
+-- Table structure for table `task`
 --
 
 CREATE TABLE `task` (
@@ -37,7 +37,7 @@ CREATE TABLE `task` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
--- Tablo döküm verisi `task`
+-- Dumping data for table `task`
 --
 
 INSERT INTO `task` (`idtask`, `name`, `duration`, `date`, `userid`) VALUES
@@ -123,7 +123,7 @@ INSERT INTO `task` (`idtask`, `name`, `duration`, `date`, `userid`) VALUES
 -- --------------------------------------------------------
 
 --
--- Tablo için tablo yapısı `user`
+-- Table structure for table `user`
 --
 
 CREATE TABLE `user` (
@@ -134,7 +134,7 @@ CREATE TABLE `user` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
--- Tablo döküm verisi `user`
+-- Dumping data for table `user`
 --
 
 INSERT INTO `user` (`iduser`, `fname`, `lname`, `type`) VALUES
@@ -143,44 +143,44 @@ INSERT INTO `user` (`iduser`, `fname`, `lname`, `type`) VALUES
 (4, 'Engineer', '4', 4);
 
 --
--- Dökümü yapılmış tablolar için indeksler
+-- Indexes for dumped tables
 --
 
 --
--- Tablo için indeksler `task`
+-- Indexes for table `task`
 --
 ALTER TABLE `task`
   ADD PRIMARY KEY (`idtask`),
   ADD KEY `userid` (`userid`);
 
 --
--- Tablo için indeksler `user`
+-- Indexes for table `user`
 --
 ALTER TABLE `user`
   ADD PRIMARY KEY (`iduser`);
 
 --
--- Dökümü yapılmış tablolar için AUTO_INCREMENT değeri
+-- AUTO_INCREMENT for dumped tables
 --
 
 --
--- Tablo için AUTO_INCREMENT değeri `task`
+-- AUTO_INCREMENT for table `task`
 --
 ALTER TABLE `task`
   MODIFY `idtask` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=100;
 
 --
--- Tablo için AUTO_INCREMENT değeri `user`
+-- AUTO_INCREMENT for table `user`
 --
 ALTER TABLE `user`
   MODIFY `iduser` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
--- Dökümü yapılmış tablolar için kısıtlamalar
+-- Constraints for dumped tables
 --
 
 --
--- Tablo kısıtlamaları `task`
+-- Constraints for table `task`
 --
 ALTER TABLE `task`
   ADD CONSTRAINT `task_ibfk_1` FOREIGN KEY (`userid`) REFERENCES `user` (`iduser`);

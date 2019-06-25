@@ -569,8 +569,8 @@ $ii = 0;
 		<!-- CONTENT -->
 
 		<!-- ANIMATION AND SLIDE SHOW SECONDS INTERVAL -->
-		<script src="js/jquery.js"></script>
-		<script src="js/bootstrap.min.js"></script>
+		<script src="assets/js/jquery.js"></script>
+		<script src="assets/js/bootstrap.min.js"></script>
 		<script>
 			$('.carousel').carousel({
 				interval: 5000 //changes the speed

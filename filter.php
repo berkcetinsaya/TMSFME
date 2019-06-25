@@ -155,19 +155,19 @@ for ($day = 1; $day < 31; $day++) {
 		<!-- Wrapper for slides -->
 		<div class="carousel-inner">
 			<div class="item active">
-				<div class="fill" style="background-image:url('ship4.jpg');"></div>
+				<div class="fill" style="background-image:url('assets/img/ship4.jpg');"></div>
 			</div>
 			<div class="item">
-				<div class="fill" style="background-image:url('ship3.jpg');"></div>
+				<div class="fill" style="background-image:url('assets/img/ship3.jpg');"></div>
 			</div>
 			<div class="item">
-				<div class="fill" style="background-image:url('ship.jpg');"></div>
+				<div class="fill" style="background-image:url('assets/img/ship.jpg');"></div>
 			</div>
 			<div class="item">
-				<div class="fill" style="background-image:url('ship1.jpg');"></div>
+				<div class="fill" style="background-image:url('assets/img/ship1.jpg');"></div>
 			</div>
 			<div class="item">
-				<div class="fill" style="background-image:url('ship2.jpg');"></div>
+				<div class="fill" style="background-image:url('assets/img/ship2.jpg');"></div>
 			</div>
 		</div>
 		<!-- Controls -->
@@ -367,8 +367,8 @@ for ($day = 1; $day < 31; $day++) {
 		<!-- CONTENT -->
 
 		<!-- ANIMATION AND SLIDE SHOW SECONDS INTERVAL -->
-		<script src="js/jquery.js"></script>
-		<script src="js/bootstrap.min.js"></script>
+		<script src="assets/js/jquery.js"></script>
+		<script src="assets/js/bootstrap.min.js"></script>
 		<script>
 			$('.carousel').carousel({
 				interval: 5000 //changes the speed

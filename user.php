@@ -131,8 +131,8 @@ include("db_conn.php");
 			</div>
 		</footer>
 	</div>
-	<script src="js/jquery.js"></script>
-	<script src="js/bootstrap.min.js"></script>
+	<script src="assets/js/jquery.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
 	<script>
 		$('.carousel').carousel({
 			interval: 5000 //changes the speed
